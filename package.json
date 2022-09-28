@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "basic express usage",
   "main": "app.js",
+  "engines": {
+    "node": "16.15.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=production MONGO_USER=user1 MONGO_PASSWORD=YRHtbQ6V3MzigPZX MONGO_DEFAULT_DATABASE=shop STRIPE_KEY=sk_test_51LjGskHwguMGisWOg6guqUJEu0rG8UGjETqweqRg9vtICsVW2hoorGiGyXUQSKgrJqMO1jDoTkXgQHTkvmoUI7GS00JZVbSp89 node app.js",
